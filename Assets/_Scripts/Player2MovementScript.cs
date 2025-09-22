@@ -11,11 +11,11 @@ public class MouseMoveObject : MonoBehaviour
 
     void Update()
     {
-        // Get mouse delta
         Vector2 mouseDelta = Mouse.current.delta.ReadValue() * mouseSensitivity * Time.deltaTime;
 
         yRotation += mouseDelta.x;
         xRotation -= mouseDelta.y;
+        xRotation = Mathf.Clamp(xRotation, -90f, 90f); // Stops the backflips
         transform.localRotation = Quaternion.Euler(xRotation, yRotation, 0f);
     }
 }
