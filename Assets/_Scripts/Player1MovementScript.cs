@@ -7,6 +7,7 @@ public class Player1MovementScript : MonoBehaviour
     public float movementSpeed = 5f;
     public float rotationSpeed = 100f;
 
+// The camera dose not work, so I attach it dirrectly. Keeping this in case I can fix and reuse later.
     [Header("Camera Settings")]
     public Transform cameraTransform;
     public Vector3 cameraOffset = new Vector3(0, 5, -8);
