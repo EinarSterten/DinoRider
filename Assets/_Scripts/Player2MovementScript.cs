@@ -1,10 +1,10 @@
 using UnityEngine;
 using UnityEngine.InputSystem; // new system
 
-public class MouseMoveObject : MonoBehaviour
+public class Player2MovementScript : MonoBehaviour
 {
-    public float mouseSensitivity = 100f;
-    public float moveSpeed = 5f;
+    public float mouseSensitivity = 10f;
+    public float moveSpeed = 2.5f;
 
     private float xRotation = 0f;
     private float yRotation = 0f;
