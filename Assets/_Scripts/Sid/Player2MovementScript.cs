@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.InputSystem; // new system
+using UnityEngine.InputSystem;
 
 public class Player2MovementScript : MonoBehaviour
 {
