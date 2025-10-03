@@ -925,11 +925,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: b9ef3934-7256-4c2d-bf75-788559ebbbc3
+  cloudProjectId: d3ad04c4-8c09-41f1-a987-64103f7e9251
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Agentes
-  organizationId: marcestelles216
+  projectName: DinoRider
+  organizationId: einarsnerten
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
