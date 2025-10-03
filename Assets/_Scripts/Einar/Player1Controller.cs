@@ -3,7 +3,21 @@ using UnityEngine;
 
 public class Player1Controller : NetworkBehaviour
 {
+    public Camera playerCamera;
 
+    void Start()
+    {
+        if (IsLocalPlayer)
+        {
+            // Enable camera only for local player
+            playerCamera.gameObject.SetActive(true);
+        }
+        else
+        {
+            // Disable for remote players
+            playerCamera.gameObject.SetActive(false);
+        }
+    }
     private void Update()
     {
         if (!IsOwner) return;

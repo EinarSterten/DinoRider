@@ -50,5 +50,20 @@ public class Player2Follow : NetworkBehaviour
             transform.AnticipateMove(player1Object.transform.position + offset);
         }
     }
+    public Camera playerCamera;
+
+    void Start()
+    {
+        if (IsLocalPlayer)
+        {
+            // Enable camera only for local player
+            playerCamera.gameObject.SetActive(true);
+        }
+        else
+        {
+            // Disable for remote players
+            playerCamera.gameObject.SetActive(false);
+        }
+    }
 
 }
