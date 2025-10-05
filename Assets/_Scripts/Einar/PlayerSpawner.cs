@@ -48,17 +48,14 @@ public class PlayerSpawner : MonoBehaviour
             var player2Object = networkObject.transform;
             var player1Object = player1NetworkObject.transform;
 
-            //// Set Player 2's parent to Player 1
-            //player2Object.parent = player1Object;
-
-            // Optional: Reset local position if needed
+            // Reset local position if needed
             player2Object.localPosition = Vector3.zero;
         }
     }
 
     private GameObject DecidePrefab(ulong clientId)
     {
-        // Example logic: even IDs get Player 1, odd IDs get Player 2
+        // even IDs get Player 1, odd IDs get Player 2
         if (clientId % 2 == 1)
         {
             return playerPrefab1;

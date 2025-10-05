@@ -57,7 +57,7 @@ public class CowboyController : NetworkBehaviour
         NetworkObject netBullet = bullet.GetComponent<NetworkObject>();
         netBullet.Spawn();                       // replicate to everyone
 
-        // ➜ wait 1 frame so every client has the object, THEN set velocity
+        // ➜ wait 1 frame so every client has the object, then set velocity
         StartCoroutine(SetVelocityNextFrame(bullet));
     }
 
@@ -65,7 +65,7 @@ public class CowboyController : NetworkBehaviour
     {
         yield return null;                                          // 1 frame
         Rigidbody rb = bullet.GetComponent<Rigidbody>();
-        rb.linearVelocity = firePoint.forward * projectileSpeed;   // now everyone sees it
+        rb.linearVelocity = firePoint.forward * projectileSpeed;
         bullet.GetComponent<BulletNetcode>().DestroyAfter(5f);     // start despawn timer
     }
 }

@@ -30,7 +30,7 @@ public class DinoController : NetworkBehaviour
         if (!IsOwner) return;
 
         ReadInput();
-        // No movement here: handle in FixedUpdate for physics
+
     }
 
     private void ReadInput()

@@ -8,7 +8,7 @@ public class NetworkManagerUI_Einar : MonoBehaviour
     [SerializeField] private Button hostButton;
     [SerializeField] private Button clientButton;
 
-    [SerializeField] private PlayerSpawner_Reworked spawner; // assign in inspector
+    [SerializeField] private PlayerSpawner_Reworked spawner; 
 
     private void Awake()
     {
@@ -18,7 +18,7 @@ public class NetworkManagerUI_Einar : MonoBehaviour
         });
         hostButton.onClick.AddListener(() =>
         {
-            spawner.StartHostAndSpawn(); // trigger spawn after starting host
+            spawner.StartHostAndSpawn(); 
         });
         clientButton.onClick.AddListener(() =>
         {

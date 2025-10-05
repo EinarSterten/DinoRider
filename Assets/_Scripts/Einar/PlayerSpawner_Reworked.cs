@@ -10,7 +10,6 @@ public class PlayerSpawner_Reworked : MonoBehaviour
 
     private NetworkObject dinoNO;
 
-    // New method to start host and spawn host player
     public void StartHostAndSpawn()
     {
         if (NetworkManager.Singleton.IsClient || NetworkManager.Singleton.IsServer)
