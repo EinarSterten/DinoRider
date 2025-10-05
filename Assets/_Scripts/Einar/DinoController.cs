@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(NetworkObject))]
+[RequireComponent(typeof(Rigidbody))]
 public class DinoController : NetworkBehaviour
 {
     [Header("Movement")]
@@ -14,12 +15,14 @@ public class DinoController : NetworkBehaviour
     public Vector3 cameraOffset = new Vector3(0, 5, -8);
     public float cameraFollowSpeed = 10f;
 
-    private Vector2 input;      // WASD only
+    private Vector2 input;
+    private Rigidbody rb;
 
     public override void OnNetworkSpawn()
     {
         if (cameraTransform)
             cameraTransform.gameObject.SetActive(IsOwner);
+        rb = GetComponent<Rigidbody>();
     }
 
     void Update()
@@ -27,8 +30,7 @@ public class DinoController : NetworkBehaviour
         if (!IsOwner) return;
 
         ReadInput();
-        Move();
-        UpdateCamera();
+        // No movement here: handle in FixedUpdate for physics
     }
 
     private void ReadInput()
@@ -42,20 +44,17 @@ public class DinoController : NetworkBehaviour
         if (Keyboard.current.sKey.isPressed) input.y = -1;
     }
 
-    private void Move()
+    private void FixedUpdate()
     {
-        transform.Rotate(0, input.x * rotSpeed * Time.deltaTime, 0);
+        if (!IsOwner || rb == null) return;
 
-        float forward = Mathf.Clamp01(input.y);               // no reverse
-        transform.Translate(0, 0, forward * moveSpeed * Time.deltaTime, Space.Self);
-    }
+        // Rotate based on horizontal input
+        float rotationAmount = input.x * rotSpeed * Time.fixedDeltaTime;
+        Quaternion deltaRotation = Quaternion.Euler(0, rotationAmount, 0);
+        rb.MoveRotation(rb.rotation * deltaRotation);
 
-    private void UpdateCamera()
-    {
-        if (!cameraTransform) return;
-
-        Vector3 targetPos = transform.position + transform.TransformDirection(cameraOffset);
-        cameraTransform.position = Vector3.Lerp(cameraTransform.position, targetPos, cameraFollowSpeed * Time.deltaTime);
-        cameraTransform.LookAt(transform);
+        // Move forward/backward based on vertical input
+        Vector3 moveDirection = transform.forward * input.y * moveSpeed * Time.fixedDeltaTime;
+        rb.MovePosition(rb.position + moveDirection);
     }
 }

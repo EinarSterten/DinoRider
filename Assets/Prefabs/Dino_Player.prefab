@@ -523,12 +523,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 420223244488270682}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.77209246, y: 0.016641732, z: 0.018555682, w: 0.63502127}
-  m_LocalPosition: {x: 0.03552866, y: 4.834399, z: 0.75106525}
-  m_LocalScale: {x: 0.019405484, y: 0.021386577, z: 0.021391077}
+  m_LocalRotation: {x: -0.09692396, y: -0.0013533671, z: 0.02488833, w: 0.9949796}
+  m_LocalPosition: {x: 1.2773122, y: -27.002014, z: 173.8044}
+  m_LocalScale: {x: 0.69765836, y: 0.7688816, z: 0.76904356}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2980464482111632095}
+  m_Father: {fileID: 742759991266996141}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4257659397234754978
 MeshFilter:
@@ -5144,9 +5144,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4516540669438321145}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.22033334, y: 0.22033334, z: 0.22033334}
+  m_LocalScale: {x: 7.9213357, y: 7.921335, z: 7.921335}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3117166286323600179}
@@ -5158,7 +5158,7 @@ Transform:
   - {fileID: 6984387836917169272}
   - {fileID: 9176642200117289439}
   - {fileID: 5331786531424345879}
-  m_Father: {fileID: 2980464482111632095}
+  m_Father: {fileID: 742759991266996141}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &4160006243666429764
 Animator:
@@ -6214,6 +6214,7 @@ GameObject:
   - component: {fileID: 742759991266996141}
   - component: {fileID: 5519024557452361681}
   - component: {fileID: 8154561814880022859}
+  - component: {fileID: 3916422135143419565}
   m_Layer: 0
   m_Name: Dino_NewUV
   m_TagString: Untagged
@@ -6233,7 +6234,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.027815172, y: 0.027815172, z: 0.027815172}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 5151947896908263676}
+  - {fileID: 5245147494053507365}
+  - {fileID: 2251233614964305550}
   m_Father: {fileID: 2980464482111632095}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5519024557452361681
@@ -6292,6 +6296,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3916422135143419565
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5929203919657318770}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 88.41151, y: 71.81277, z: 167.88812}
+  m_Center: {x: 0, y: -5.4668245, z: 84.38503}
 --- !u!1 &5930731736035595342
 GameObject:
   m_ObjectHideFlags: 0
@@ -6783,8 +6808,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2980464482111632095}
   - component: {fileID: 8406699031524625417}
-  - component: {fileID: 5751203784719882801}
   - component: {fileID: 6617870469141605463}
+  - component: {fileID: 4220388953860274304}
+  - component: {fileID: 5303487798740728512}
   m_Layer: 0
   m_Name: Dino_Player
   m_TagString: Untagged
@@ -6805,10 +6831,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5151947896908263676}
-  - {fileID: 5245147494053507365}
   - {fileID: 742759991266996141}
-  - {fileID: 2251233614964305550}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8406699031524625417
@@ -6823,7 +6846,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
-  GlobalObjectIdHash: 4174407284
+  GlobalObjectIdHash: 3111907487
   InScenePlacedSourceGlobalObjectIdHash: 1386396261
   DeferredDespawnTick: 0
   Ownership: 1
@@ -6836,24 +6859,6 @@ MonoBehaviour:
   AutoObjectParentSync: 1
   SyncOwnerTransformWhenParented: 1
   AllowOwnerToParent: 0
---- !u!114 &5751203784719882801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6461992131306721812}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64d59eff1e5a5f44d863a06b8423fed3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DinoController
-  ShowTopMostFoldoutHeaderGroup: 1
-  moveSpeed: 5
-  rotSpeed: 100
-  cameraTransform: {fileID: 2251233614964305550}
-  cameraOffset: {x: 0, y: 7, z: -14}
-  cameraFollowSpeed: 10
 --- !u!114 &6617870469141605463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6900,6 +6905,51 @@ MonoBehaviour:
   SwitchTransformSpaceWhenParented: 0
   Interpolate: 1
   SlerpPosition: 0
+--- !u!54 &4220388953860274304
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6461992131306721812}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 80
+  m_CollisionDetection: 1
+--- !u!114 &5303487798740728512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6461992131306721812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64d59eff1e5a5f44d863a06b8423fed3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DinoController
+  ShowTopMostFoldoutHeaderGroup: 1
+  moveSpeed: 5
+  rotSpeed: 100
+  cameraTransform: {fileID: 2251233614964305550}
+  cameraOffset: {x: 0, y: 7, z: -14}
+  cameraFollowSpeed: 10
 --- !u!1 &6576674336894753645
 GameObject:
   m_ObjectHideFlags: 0
@@ -7412,12 +7462,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7068606103103644713}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.20824, y: 4.97, z: -8.78903}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.359516, y: 315.97968, z: 178.67949}
+  m_LocalScale: {x: 35.9516, y: 35.951595, z: 35.951595}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2980464482111632095}
+  m_Father: {fileID: 742759991266996141}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &3547887983178206384
 Camera:
