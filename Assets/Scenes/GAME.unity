@@ -7334,6 +7334,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Network_Manager
       objectReference: {fileID: 0}
+    - target: {fileID: 8764769549347953117, guid: f4e7a98ae9368354fbfce84ca15d8ae5, type: 3}
+      propertyPath: ConnectionData.Address
+      value: 192.168.0.231
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764769549347953117, guid: f4e7a98ae9368354fbfce84ca15d8ae5, type: 3}
+      propertyPath: ConnectionData.ServerListenAddress
+      value: 0.0.0.0
+      objectReference: {fileID: 0}
     - target: {fileID: 9111600758093994730, guid: f4e7a98ae9368354fbfce84ca15d8ae5, type: 3}
       propertyPath: dinoPrefab
       value: 

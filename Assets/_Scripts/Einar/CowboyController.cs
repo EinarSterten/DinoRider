@@ -18,11 +18,13 @@ public class CowboyController : NetworkBehaviour
 
     private float pitch;
     private float yaw;
+    private AudioSource audioSource;
 
     public override void OnNetworkSpawn()
     {
         // enable camera only for the rider
         GetComponentInChildren<Camera>(true).gameObject.SetActive(IsOwner);
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -54,6 +56,7 @@ public class CowboyController : NetworkBehaviour
     private void ShootServerRpc()
     {
         GameObject bullet = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
+        audioSource.Play();
         NetworkObject netBullet = bullet.GetComponent<NetworkObject>();
         netBullet.Spawn();                       // replicate to everyone
 
