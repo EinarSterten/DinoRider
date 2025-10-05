@@ -5,68 +5,59 @@ using UnityEngine;
 
 public class PlayerSpawner_Reworked : MonoBehaviour
 {
-    [SerializeField] private GameObject dinoPrefab;
-    [SerializeField] private GameObject cowboyPrefab;
+    [SerializeField] private GameObject dinoPrefab;   // drag in inspector
+    [SerializeField] private GameObject cowboyPrefab; // drag in inspector
 
     private NetworkObject dinoNO;
 
-    private void Awake()
+    // New method to start host and spawn host player
+    public void StartHostAndSpawn()
     {
-        if (NetworkManager.Singleton == null) return;
-        NetworkManager.Singleton.OnClientConnectedCallback += OnClientConnected;
+        if (NetworkManager.Singleton.IsClient || NetworkManager.Singleton.IsServer)
+        {
+            Debug.LogWarning("Already running as host or client");
+            return;
+        }
+        NetworkManager.Singleton.OnServerStarted += SpawnHostPlayer;
+        NetworkManager.Singleton.StartHost();
     }
 
-    private void Start()
+    private void SpawnHostPlayer()
     {
-        if (!NetworkManager.Singleton.IsHost)
-            NetworkManager.Singleton.StartHost();
+        NetworkManager.Singleton.OnServerStarted -= SpawnHostPlayer;
 
-        StartCoroutine(ForceSpawnHostPlayer());
+        // host player
+        ulong hostId = NetworkManager.Singleton.LocalClientId;
+        GameObject go = Instantiate(dinoPrefab);
+        NetworkObject no = go.GetComponent<NetworkObject>();
+        no.SpawnAsPlayerObject(hostId);
+        dinoNO = no;
+
+        // Start coroutine to spawn client players if needed
+        StartCoroutine(SpawnClientPlayers());
     }
 
-    private IEnumerator ForceSpawnHostPlayer()
+    private IEnumerator SpawnClientPlayers()
     {
-        yield return null; // let host fully init
-        ulong localId = NetworkManager.Singleton.LocalClientId;
-        Debug.LogError($"🚀 FORCE-SPAWNING host client {localId}");
-        OnClientConnected(localId);
-    }
+        while (NetworkManager.Singleton.ConnectedClients.Count < 2)
+            yield return null;
 
-    private void OnDestroy()
-    {
-        if (NetworkManager.Singleton != null)
-            NetworkManager.Singleton.OnClientConnectedCallback -= OnClientConnected;
-    }
-
-    private void OnClientConnected(ulong clientId)
-    {
-        Debug.LogError($"🔥 CALLBACK FIRED for client {clientId}");
-        if (!NetworkManager.Singleton.IsServer) return;
-
-        bool isDino = NetworkManager.Singleton.ConnectedClients.Count == 1;
-
-        NetworkObject no = Instantiate(isDino ? dinoPrefab : cowboyPrefab)
-                          .GetComponent<NetworkObject>();
-
-        no.SpawnAsPlayerObject(clientId);
-
-        if (isDino)
-            dinoNO = no;
-        else
-            StartCoroutine(MountCowboy(no));
+        ulong clientId = NetworkManager.Singleton.ConnectedClientsList[1].ClientId;
+        GameObject go2 = Instantiate(cowboyPrefab);
+        NetworkObject no2 = go2.GetComponent<NetworkObject>();
+        no2.SpawnAsPlayerObject(clientId);
+        StartCoroutine(MountCowboy(no2));
     }
 
     private IEnumerator MountCowboy(NetworkObject cowboy)
     {
         yield return null;
         cowboy.TrySetParent(dinoNO, false);
-
-        // disable POSITION sync only – rotation still replicates
         NetworkTransform nt = cowboy.GetComponent<NetworkTransform>();
         nt.SyncPositionX = false;
         nt.SyncPositionY = false;
         nt.SyncPositionZ = false;
-        nt.SyncRotAngleX = true;   // keep these
+        nt.SyncRotAngleX = true;
         nt.SyncRotAngleY = true;
         nt.SyncRotAngleZ = true;
     }
