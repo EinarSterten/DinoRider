@@ -6,7 +6,7 @@ public class BulletScript : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        // If hit enemy → destroy enemy + bullet
+        // DestroyEnemy
         if (collision.gameObject.CompareTag(targetTag))
         {
             Destroy(collision.gameObject);
