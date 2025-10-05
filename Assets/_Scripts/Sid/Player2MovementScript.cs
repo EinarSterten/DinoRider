@@ -11,6 +11,8 @@ public class Player2MovementScript : MonoBehaviour
 
     void Update()
     {
+        Cursor.lockState = CursorLockMode.Locked; //Locking cursor
+        Cursor.visible = false; //hides cursor Ænar
         Vector2 mouseDelta = Mouse.current.delta.ReadValue() * mouseSensitivity * Time.deltaTime;
 
         yRotation += mouseDelta.x;
