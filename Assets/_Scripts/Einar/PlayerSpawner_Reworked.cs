@@ -59,5 +59,8 @@ public class PlayerSpawner_Reworked : MonoBehaviour
         nt.SyncRotAngleX = true;
         nt.SyncRotAngleY = true;
         nt.SyncRotAngleZ = true;
+
+        //Spawn enemies
+        GameManager.Instance.SpawnEnemies();
     }
 }

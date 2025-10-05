@@ -19,10 +19,19 @@ public class BulletNetcode : NetworkBehaviour
         if (!IsServer) return;
 
         if (c.collider.CompareTag(targetTag))
-            if (c.collider.TryGetComponent<NetworkObject>(out var enemy))
-                enemy.Despawn(true);
+        {
+            if (c.collider.TryGetComponent<NetworkObject>(out var enemyNetworkObject))
+            {
+                // Notify the GameManager that an enemy was defeated
+                GameManager.Instance.OnEnemyDespawned();
 
-        SelfDespawn();
+                // Despawn the enemy
+                enemyNetworkObject.Despawn(true);
+
+                //Despawn bullet
+                SelfDespawn();
+            }
+        }
     }
 
     void SelfDespawn() => GetComponent<NetworkObject>().Despawn(true);
