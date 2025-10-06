@@ -7334,22 +7334,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Network_Manager
       objectReference: {fileID: 0}
-    - target: {fileID: 8764769549347953117, guid: f4e7a98ae9368354fbfce84ca15d8ae5, type: 3}
-      propertyPath: ConnectionData.Address
-      value: 192.168.0.231
-      objectReference: {fileID: 0}
-    - target: {fileID: 8764769549347953117, guid: f4e7a98ae9368354fbfce84ca15d8ae5, type: 3}
-      propertyPath: ConnectionData.ServerListenAddress
-      value: 0.0.0.0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9111600758093994730, guid: f4e7a98ae9368354fbfce84ca15d8ae5, type: 3}
-      propertyPath: dinoPrefab
-      value: 
-      objectReference: {fileID: 6461992131306721812, guid: d52ba9a8e850d604b9189df626928a58, type: 3}
-    - target: {fileID: 9111600758093994730, guid: f4e7a98ae9368354fbfce84ca15d8ae5, type: 3}
-      propertyPath: cowboyPrefab
-      value: 
-      objectReference: {fileID: 8957200601053498914, guid: d0b1df96f888ac145af115276508fc30, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

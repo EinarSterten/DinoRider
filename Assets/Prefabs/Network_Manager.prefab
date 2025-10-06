@@ -99,9 +99,9 @@ MonoBehaviour:
   m_MaxConnectAttempts: 60
   m_DisconnectTimeoutMS: 30000
   ConnectionData:
-    Address: 127.0.0.1
+    Address: 158.38.224.200
     Port: 7892
-    ServerListenAddress: 127.0.0.1
+    ServerListenAddress: 0.0.0.0
   DebugSimulator:
     PacketDelayMS: 0
     PacketJitterMS: 0
@@ -118,5 +118,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c35215c0cf2f6d4c89132f8c90aba8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerSpawner_Reworked
-  dinoPrefab: {fileID: 1396626849198397193, guid: 2869ade3f3d10534db18c62498c730b7, type: 3}
-  cowboyPrefab: {fileID: 6916991650948704009, guid: db86c06014b34dd4f8f20ae34259f924, type: 3}
+  dinoPrefab: {fileID: 6461992131306721812, guid: d52ba9a8e850d604b9189df626928a58, type: 3}
+  cowboyPrefab: {fileID: 8957200601053498914, guid: d0b1df96f888ac145af115276508fc30, type: 3}
