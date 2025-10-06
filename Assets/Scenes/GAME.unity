@@ -1421,6 +1421,17 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 142476119}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &201508960 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1474248827066308804, guid: 25255e04b46051d4bb4de2b12b58cb01, type: 3}
+  m_PrefabInstance: {fileID: 90797146}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TMP_InputField
 --- !u!1001 &275543794
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1480,20 +1491,77 @@ PrefabInstance:
     - target: {fileID: 6141439935249029423, guid: c754106a8960d75469e0512a92cdf125, type: 3}
       propertyPath: hostButton
       value: 
+      objectReference: {fileID: 90797150}
+    - target: {fileID: 6141439935249029423, guid: c754106a8960d75469e0512a92cdf125, type: 3}
+      propertyPath: joinButton
+      value: 
       objectReference: {fileID: 90797149}
     - target: {fileID: 6141439935249029423, guid: c754106a8960d75469e0512a92cdf125, type: 3}
       propertyPath: clientButton
       value: 
       objectReference: {fileID: 90797147}
     - target: {fileID: 6141439935249029423, guid: c754106a8960d75469e0512a92cdf125, type: 3}
+      propertyPath: relayManager
+      value: 
+      objectReference: {fileID: 1511613671}
+    - target: {fileID: 6141439935249029423, guid: c754106a8960d75469e0512a92cdf125, type: 3}
       propertyPath: serverButton
       value: 
       objectReference: {fileID: 90797150}
+    - target: {fileID: 6141439935249029423, guid: c754106a8960d75469e0512a92cdf125, type: 3}
+      propertyPath: joinCodeInput
+      value: 
+      objectReference: {fileID: 201508960}
+    - target: {fileID: 6141439935249029423, guid: c754106a8960d75469e0512a92cdf125, type: 3}
+      propertyPath: relayHostButton
+      value: 
+      objectReference: {fileID: 90797150}
+    - target: {fileID: 6141439935249029423, guid: c754106a8960d75469e0512a92cdf125, type: 3}
+      propertyPath: relayJoinButton
+      value: 
+      objectReference: {fileID: 90797149}
+    - target: {fileID: 6141439935249029423, guid: c754106a8960d75469e0512a92cdf125, type: 3}
+      propertyPath: joinCodeInputField
+      value: 
+      objectReference: {fileID: 201508960}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3156105851378469977, guid: c754106a8960d75469e0512a92cdf125, type: 3}
+      insertIndex: 1
+      addedObject: {fileID: 275543796}
   m_SourcePrefab: {fileID: 100100000, guid: c754106a8960d75469e0512a92cdf125, type: 3}
+--- !u!1 &275543795 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3156105851378469977, guid: c754106a8960d75469e0512a92cdf125, type: 3}
+  m_PrefabInstance: {fileID: 275543794}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &275543796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 275543795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
+  GlobalObjectIdHash: 2014205474
+  InScenePlacedSourceGlobalObjectIdHash: 0
+  DeferredDespawnTick: 0
+  Ownership: 1
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 0
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+  SyncOwnerTransformWhenParented: 1
+  AllowOwnerToParent: 0
 --- !u!1 &293645773
 GameObject:
   m_ObjectHideFlags: 0
@@ -7334,6 +7402,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Network_Manager
       objectReference: {fileID: 0}
+    - target: {fileID: 8764769549347953117, guid: f4e7a98ae9368354fbfce84ca15d8ae5, type: 3}
+      propertyPath: m_ProtocolType
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8172,6 +8244,50 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1496736378}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1511613670
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1511613672}
+  - component: {fileID: 1511613671}
+  m_Layer: 0
+  m_Name: RelayManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1511613671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511613670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38ce91c357f069d47834386f2007ebb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RelayManager
+--- !u!4 &1511613672
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511613670}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1557.7688, y: 0, z: 2509.2004}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1571770140
 GameObject:
   m_ObjectHideFlags: 0
@@ -10155,3 +10271,4 @@ SceneRoots:
   - {fileID: 275543794}
   - {fileID: 2094472215}
   - {fileID: 2816511133213613808}
+  - {fileID: 1511613672}
