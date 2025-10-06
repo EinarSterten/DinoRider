@@ -495,6 +495,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (40)
@@ -557,6 +569,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (3)
@@ -730,6 +754,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (72)
@@ -1615,6 +1651,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (23)
@@ -1677,6 +1725,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (53)
@@ -1750,6 +1810,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (37)
@@ -1942,6 +2014,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (32)
@@ -2226,6 +2310,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (10)
@@ -2399,6 +2495,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (48)
@@ -2684,6 +2792,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (46)
@@ -2857,6 +2977,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (7)
@@ -3211,6 +3343,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (54)
@@ -3384,6 +3528,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (43)
@@ -3588,6 +3744,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (2)
@@ -3763,7 +3931,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.125
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
       objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
@@ -3960,6 +4136,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (60)
@@ -4133,6 +4321,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (19)
@@ -4528,6 +4728,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (61)
@@ -4590,6 +4802,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (4)
@@ -4652,6 +4876,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (28)
@@ -4714,6 +4950,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (70)
@@ -4776,6 +5024,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (25)
@@ -4838,6 +5098,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (64)
@@ -5011,6 +5283,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (14)
@@ -5295,6 +5579,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (38)
@@ -5357,6 +5653,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (58)
@@ -5419,6 +5727,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (6)
@@ -5649,6 +5969,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (52)
@@ -6250,6 +6582,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (68)
@@ -6565,6 +6909,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (35)
@@ -6985,6 +7341,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (41)
@@ -7047,6 +7415,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (51)
@@ -7575,6 +7955,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (1)
@@ -7748,6 +8140,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (45)
@@ -7810,6 +8214,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (8)
@@ -8008,6 +8424,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (21)
@@ -8181,6 +8609,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (42)
@@ -8465,6 +8905,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (44)
@@ -8660,6 +9112,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (59)
@@ -9073,6 +9537,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (63)
@@ -9135,6 +9611,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (66)
@@ -9555,6 +10043,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (71)
@@ -9617,6 +10117,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (24)
@@ -9679,6 +10191,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (27)
@@ -9741,6 +10265,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (13)
@@ -10041,6 +10577,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (55)
@@ -10331,6 +10879,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (47)
@@ -10615,6 +11175,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (69)
@@ -10677,6 +11249,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (30)
@@ -10739,6 +11323,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (16)
@@ -11134,6 +11730,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire
@@ -11307,6 +11915,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (36)
@@ -11369,6 +11989,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (56)
@@ -11431,6 +12063,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (11)
@@ -11493,6 +12137,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (34)
@@ -11710,6 +12366,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (15)
@@ -11772,6 +12440,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (12)
@@ -12081,6 +12761,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (62)
@@ -12248,6 +12940,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (5)
@@ -12310,6 +13014,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (9)
@@ -12594,6 +13310,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (26)
@@ -12878,6 +13606,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (33)
@@ -12940,6 +13680,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (65)
@@ -13033,6 +13785,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (17)
@@ -13095,6 +13859,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (31)
@@ -13157,6 +13933,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (67)
@@ -13330,6 +14118,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (18)
@@ -13582,6 +14382,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (22)
@@ -13644,6 +14456,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (29)
@@ -13706,6 +14530,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (20)
@@ -13768,6 +14604,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (39)
@@ -14052,6 +14900,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (57)
@@ -14754,6 +15614,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire (49)
@@ -14897,6 +15769,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664025548}
     m_Modifications:
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579330103286216353, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 3179028008893580251, guid: 2f7be3809adb14f43884b0f88d08c3ef, type: 3}
       propertyPath: m_Name
       value: Torch&fire
